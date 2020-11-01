@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+</head>
+
+<header>
+    <img src=images/logo.png alt="logo" height="120" width="480">
+    <nav>
+        <div class="container">
+            <a href="home.html">Home;</a>
+            <a href="listings.html">Listings</a>
+            <a href="registrations.html">Registrations</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+<div class="search form">
+    <form id="search bookings" action="/submit">
+       <h1>Find the perfect room for you.</h1>
+       <label for="city">City:</label>
+       <select name="city" id="city">
+           <option value="Toronto">Toronto</option>
+           <option value="Vancouver">Vancouver</option>
+           <option value="Montreal">Montreal</option>
+           <option value="Ottawa">Ottawa</option>
+       </select><br><br>
+       <label for="checkInDate">Check-in:</label>
+       <input type="date" id="checkInDate" name="checkInDate"><br><br>
+       <label for="checkOutDate">Check-out:</label>
+       <input type="date" id="checkOutDate" name="checkOutDate"><br><br>
+       <label for="numberOfGuests">Number of guests:</label>
+       <select name="numberOfGuests" id="numberOfGuests">
+           <option value="1">1 guest</option>
+           <option value="2">2 guests</option>
+           <option value="3">3 guests</option>
+           <option value="4">4 guests</option>
+           <option value="5">5 guests</option>
+           <option value="6">6 guests</option>
+           <option value="7+">7+ guests</option>
+       </select><br><br>
+       <input value="Search" name="btnk" type="submit">
+    </form>
+</div>
+
+<div class="promos">
+    <img src=images/promo.png alt="promo">
+</div>
+
+<div class="info">
+</div>
+    <h1>Why YOUbnb?</h1>
+    <p>Users across the world are choosing YOUbnb over hotels and motels.</p>
+    <p>-YOUbnb has listngs in urban, suburban, and rural areas. Experience life in and out of the city</p>
+    <p>-Save money! YOUbnb costs less on average than hotels and motels while providing unique experiences</p>
+    <p>-Get reviews on every listing. Looking for something specific? Check out reviews to find exactly what you are looking for!</p>
+    <img src=images/bedroom.jpg alt="bedroom">
+</body>
+
+<footer>
+    <p>contact us:
+    <a href="mailto:youbnb@gmail.com">YOUbnb@gmail.com</a>
+    </p>
+    <p>
+    <a href="https://www.instagram.com/YOUbnb">
+        <img border="0" alt="instagram" src="images/instaicon.png" width="32" height="32">
+    </a>
+    <a href="https://www.facebook.com/YOUbnb">
+        <img border="0" alt="facebook" src="images/fbicon.png" width="32" height="32">
+    </a>
+    <a href="https://www.twitter.com/YOUbnb">
+        <img border="0" alt="twitter" src="images/twittericon.png" width="32" height="32">
+    </a>
+    </p>
+
+</footer>
+</html>
